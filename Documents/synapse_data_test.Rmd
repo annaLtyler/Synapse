@@ -1,0 +1,43 @@
+---
+title: "Synapse"
+author: Anna L Tyler
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  html_document:
+    code_folding: hide
+    collapsed: no
+    toc: yes
+    toc_float: yes
+---
+
+The purpose of this document is to get oriented with
+Synapse and the R package synapser. 
+
+
+```{r load_libraries}
+#synapse data test
+library(synapser)
+library(here)
+```
+
+```{r login_to_synapse}
+synLogin()
+```
+
+
+```{r load_metadata}
+metadata.id <- read.table(here("Data", "ROSMAP", "metadata_files", "ROSMAP_metadata_files.txt"))
+metadata.file <- rep(NA, nrow(metadata.id))
+metadata <- vector(mode = "list", length = length(metadata.file))
+for(i in 1:nrow(metadata.id)){
+    metadata.file[i] <- synapser::synGet(metadata.id[i,1])$path
+    metadata[[i]] <- read.csv(metadata.file[i])
+}
+
+names(metadata) <- gsub(".csv", "", sapply(strsplit(basename(metadata.file), "_"), function(x) if(length(x) == 2){x[2]}else{x[3]}))
+```
+
+
+
+
+
