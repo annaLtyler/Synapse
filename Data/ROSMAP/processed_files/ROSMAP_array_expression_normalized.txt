@@ -1,0 +1,3 @@
+#From AD Knowledge Portal - backend syn2580853
+#Files > 1.IndividualStudies > Human > ROSMAP > Data > Gene Expression > Gene Expression (RNA array) syn3800853
+syn4009614	#ROSMAP_arrayExpression_normalized.tsv

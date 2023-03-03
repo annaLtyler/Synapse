@@ -1,0 +1,7 @@
+#From AD Knowledge Portal - backend syn2580853
+#Files > 1.IndividualStudies > Human > ROSMAP > Data > Gene Expression > Gene Expression (RNA seq) > Gene Expression (RNA Seq - bulk brain) > ROSMAP_RNAseq_FPKM_gene.tsv > syn3505720
+syn3505720	#ROSMAP_RNAseq_FPKM_gene.tsv
+syn3505744	#ROSMAP_RNAseq_FPKM_isoform.tsv
+
+
+

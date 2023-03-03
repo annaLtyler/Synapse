@@ -1,0 +1,9 @@
+#From AD Knowledge Portal - backend syn2580853
+#Files > 1.IndividualStudies > Human > ROSMAP > Data > Metadata syn3157322
+syn3191087	#ROSMAP_clinical.csv
+syn21088596	#ROSMAP_assay_RNAseq_metadata.csv
+syn21314542	#ROSMAP_assay_wholeGenomeSeq_metadata.csv	
+syn21314550	#ROSMAP_assay_snpArray_metadata.csv
+syn23569440	#ROSMAP_assay_rnaArray_metadata.csv
+syn21323366	#ROSMAP_biospecimen_metadata.csv
+

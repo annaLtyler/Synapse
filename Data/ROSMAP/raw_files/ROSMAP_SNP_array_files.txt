@@ -1,0 +1,24 @@
+#From AD Knowledge Portal - backend syn2580853
+#Files > 1.IndividualStudies > Human > ROSMAP > Data > Genomic Variants > Genomic Variants (SNP Array) > Imputed > ROSMAP imputed dosage chop_Illumina syn2426141
+syn2426151
+syn2426152
+syn2426153
+syn2426154
+syn2426155
+syn2426156
+syn2426157
+syn2426182
+syn2426183
+syn2426394
+syn2426395
+syn2426396
+syn2426397
+syn2426398
+syn2426399
+syn2426400
+syn2426401
+syn2426402
+syn2426403
+syn2426404
+syn2426405
+syn2426406
